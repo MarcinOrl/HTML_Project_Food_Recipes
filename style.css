@@ -1,0 +1,76 @@
+body{
+    background-color: #eeeee4;
+    font-family: Arial;
+}
+
+h1{
+    text-align: center;
+    font-weight: 1000;
+}
+
+h1 a{
+    text-decoration: none;
+    color: orange;
+}
+
+menu{
+    margin: 0;
+    padding: 0;
+}
+
+menu li{
+    list-style: none;
+    display: inline-block;
+    width: 32%;
+}
+
+menu li a:hover{
+    background-color: yellow;
+    color: red;
+}
+
+menu li a{
+    display: inline-block;
+    width: 100%;
+}
+
+header{
+    background-color: #40f585;
+    height: 50px;
+}
+
+nav{
+    background-color: greenyellow;
+}
+
+main{
+    display: flex;
+}
+
+main section{
+    flex-grow: 2;
+}
+
+main aside{
+    flex-grow: 1;
+}
+
+section{
+    background-color: orange;
+    padding: 20px;
+}
+
+article{
+    padding: 20px;
+}
+
+aside{
+    background-color: blue;
+}
+
+footer{
+    background-color: grey;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
