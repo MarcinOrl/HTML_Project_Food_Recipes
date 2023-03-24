@@ -88,6 +88,7 @@ main section{
     padding: 30px;
     border-radius: 10px;
     font-size: 30px;
+    text-shadow: 1px 1px 2px black;
 }
 
 main aside{
@@ -96,10 +97,16 @@ main aside{
     border-radius: 10px;
     margin-left: 10px;
     padding: 15px;
+    padding-top: 120px;
+}
+
+main aside img{
+    width: 300px;
 }
 
 main article{
     padding: 10px 10px 10px 0px;
+    text-shadow: 0.5px 0.5px 1px black;
 }
 
 footer{
@@ -187,4 +194,29 @@ footer div{
 .form_button{
     cursor: pointer;
     padding: 12px 48px;
+}
+
+#kategorie img{
+    height: 200px;
+    border-radius: 10px;
+}
+
+#kategorie{
+    text-align: center;
+    font-size: 40px;
+}
+
+#kategorie ul{
+    list-style-type: none;
+}
+
+#kategorie li{
+    display: inline-block;
+    padding: 30px;
+}
+
+#kategorie a{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
 }
